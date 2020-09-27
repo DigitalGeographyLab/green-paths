@@ -9,14 +9,19 @@ Currently implemented features include calculation of unpolluted and quiet paths
 Live demo: [green-paths.web.app](https://green-paths.web.app/)
 
 
+## Roadmap
+
+The project roadmap is currently presented as epics in [github.com/orgs/DigitalGeographyLab/projects/1](https://github.com/orgs/DigitalGeographyLab/projects/1).
+
+
 ## Components
 
-- [hope-green-path-ui](https://github.com/DigitalGeographyLab/hope-green-path-ui)
-- [hope-green-path-server](https://github.com/DigitalGeographyLab/hope-green-path-server)
-- [hope-graph-builder](https://github.com/DigitalGeographyLab/hope-graph-builder)
-- [hope-graph-updater](https://github.com/DigitalGeographyLab/hope-graph-updater)  
+- [green-path-ui](https://github.com/DigitalGeographyLab/hope-green-path-ui)
+- [green-path-server](https://github.com/DigitalGeographyLab/hope-green-path-server)
+- [graph-builder](https://github.com/DigitalGeographyLab/hope-graph-builder)
+- [graph-updater](https://github.com/DigitalGeographyLab/hope-graph-updater)  
 
-<img src="images/service-architecture.png" width="500">
+<img src="images/service-architecture.png" width="650">
 
 
 ## Materials
@@ -35,9 +40,9 @@ Server & data processing: Python 3.8, igraph, GeoPandas, Shapely, Flask & Gunico
 UI: React, Redux & Thunk, Mapbox GL JS & Turf.js, TypeScript
 
 
-## Green paths routing API
+## Green Paths routing API
 
-See [docs/green_paths_api.md](https://github.com/DigitalGeographyLab/hope-green-path-server/blob/develop/docs/green_paths_api.md) for detailed documentation (endpoints etc.) of the green paths routing API.
+See [hope-green-path-server/docs/green_paths_api.md](https://github.com/DigitalGeographyLab/hope-green-path-server/blob/develop/docs/green_paths_api.md) for detailed documentation (endpoints etc.) of the green paths routing API.
 
 
 ## Contributing
